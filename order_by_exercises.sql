@@ -14,8 +14,8 @@ AND last_name like '%E'
 ORDER BY emp_no DESC;
 
 SELECT * FROM employees WHERE birth_date LIKE '%-12-25'
-AND hire_date BETWEEN '1990-1-1' AND '1999-12-31'
-ORDER BY hire_date ASC, birth_date DESC;
+AND hire_date BETWEEN '1990-01-01' AND '1999-12-31'
+ORDER BY birth_date ASC, hire_date DESC
 
 SELECT * FROM employees WHERE last_name LIKE '%q%'
 AND last_name NOT LIKE '%qu%';
