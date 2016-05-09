@@ -83,14 +83,15 @@ ORDER BY last_name ASC, first_name ASC;
 
 SELECT * FROM employees WHERE last_name like 'E%'
 OR last_name like '%E'
-ORDER BY emp_no ASC;
+ORDER BY emp_no DESC;
 
 SELECT * FROM employees WHERE last_name like 'E%'
 AND last_name like '%E'
-ORDER BY emp_no ASC;
+ORDER BY emp_no DESC;
 
 SELECT * FROM employees WHERE birth_date LIKE '%-12-25'
-AND hire_date BETWEEN '1990-1-1' AND '1999-12-31';
+AND hire_date BETWEEN '1990-1-1' AND '1999-12-31'
+ORDER BY hire_date DESC, birth_date ASC;
 
 SELECT * FROM employees WHERE last_name LIKE '%q%'
 AND last_name NOT LIKE '%qu%';</string>
@@ -108,6 +109,12 @@ AND last_name NOT LIKE '%qu%';</string>
 	<array/>
 	<key>queryHistory</key>
 	<array>
+		<string>SELECT * FROM employees WHERE birth_date LIKE '%-12-25'
+AND hire_date BETWEEN '1990-1-1' AND '1999-12-31'
+ORDER BY hire_date DESC, birth_date ASC</string>
+		<string>SELECT * FROM employees WHERE last_name like 'E%'
+AND last_name like '%E'
+ORDER BY emp_no DESC</string>
 		<string>SELECT * FROM employees WHERE last_name like 'E%'
 OR last_name like '%E'</string>
 		<string>SELECT * FROM employees WHERE last_name like 'E%'
@@ -184,16 +191,6 @@ SELECT * FROM employees WHERE last_name LIKE '%q%'</string>
 /* SELECT * FROM employees WHERE hire_date BETWEEN '1990-1-1' AND '1999-12-31' */
 
 SELECT * FROM employees WHERE birth_date LIKE '%-12-25'</string>
-		<string>/* SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya'); */
-
--- SELECT * FROM employees WHERE last_name like 'E%'
-
-SELECT * FROM employees WHERE hire_date BETWEEN '1990-1-1' AND '1999-12-31'</string>
-		<string>/* SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya'); */
-
--- SELECT * FROM employees WHERE last_name like 'E%'
-
-SELECT * FROM employees WHERE hire_date BETWEEN '1990-1-1' AND '2000-1-1'</string>
 	</array>
 	<key>rdbms_type</key>
 	<string>mysql</string>
