@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>employees</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>kcid</key>
+			<string>-1280928334157678719</string>
+			<key>name</key>
+			<string>Vagrant Codeup MySQL (or something similar)</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>ssh_host</key>
+			<string>192.168.77.77</string>
+			<key>ssh_keyLocation</key>
+			<string></string>
+			<key>ssh_keyLocationEnabled</key>
+			<integer>0</integer>
+			<key>ssh_user</key>
+			<string>vagrant</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPSSHTunnelConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>codeup</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJX
+			TlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAF
+			gAdUdHlwZVRyb3dzXxAdU2VsZWN0aW9uRGV0YWlsVHlwZU5TSW5k
+			ZXhTZXTSFwsYGVxOU1JhbmdlQ291bnQQAIAG0hscHR5aJGNsYXNz
+			bmFtZVgkY2xhc3Nlc1pOU0luZGV4U2V0oh8gWk5TSW5kZXhTZXRY
+			TlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVk
+			QXJjaGl2ZXLRJidUZGF0YYABAAgAEQAaACMALQAyADcAQABGAE0A
+			VQBgAGcAagBsAG4AcQBzAHUAdwB8AIEAoQCmALMAtQC3ALwAxwDQ
+			ANsA3gDpAPIA9wEEAQcBGQEcASEAAAAAAAACAQAAAAAAAAAoAAAA
+			AAAAAAAAAAAAAAABIw==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {694, 450}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>SELECT * FROM employees WHERE first_name = 'Irena' AND gender = 'M'
+OR first_name = 'Vidya'
+AND gender = 'M'
+OR first_name = 'Maya'
+AND gender = 'M'
+ORDER BY last_name ASC, first_name ASC;
+
+SELECT * FROM employees WHERE last_name like 'E%'
+OR last_name like '%E'
+ORDER BY emp_no ASC;
+
+SELECT * FROM employees WHERE last_name like 'E%'
+AND last_name like '%E'
+ORDER BY emp_no ASC;
+
+SELECT * FROM employees WHERE birth_date LIKE '%-12-25'
+AND hire_date BETWEEN '1990-1-1' AND '1999-12-31';
+
+SELECT * FROM employees WHERE last_name LIKE '%q%'
+AND last_name NOT LIKE '%qu%';</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>202</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>SELECT * FROM employees WHERE last_name like 'E%'
+OR last_name like '%E'</string>
+		<string>SELECT * FROM employees WHERE last_name like 'E%'
+OR last_name like '%E'
+ORDER BY emp_no ASC</string>
+		<string>SELECT * FROM employees WHERE first_name = 'Irena' AND gender = 'M'
+OR first_name = 'Vidya'
+AND gender = 'M'
+OR first_name = 'Maya'
+AND gender = 'M'
+ORDER BY last_name ASC, first_name ASC</string>
+		<string>SELECT * FROM employees WHERE first_name = 'Irena' AND gender = 'M'
+OR first_name = 'Vidya'
+AND gender = 'M'
+OR first_name = 'Maya'
+AND gender = 'M'
+ORDER BY first_name ASC, last_name ASC</string>
+		<string>SELECT * FROM employees WHERE first_name = 'Irena' AND gender = 'M'
+OR first_name = 'Vidya'
+AND gender = 'M'
+OR first_name = 'Maya'
+AND gender = 'M'
+ORDER BY first_name ASC</string>
+		<string>SELECT * FROM employees WHERE first_name = 'Irena' AND gender = 'M'
+OR first_name = 'Vidya'
+AND gender = 'M'
+OR first_name = 'Maya'
+AND gender = 'M'
+ORDER BY first_name DESC</string>
+		<string>SELECT * FROM employees WHERE last_name LIKE '%q%'
+AND last_name NOT LIKE '%qu%'</string>
+		<string>SELECT * FROM employees WHERE last_name LIKE '%q%'
+AND NOT LIKE '%qu%'</string>
+		<string>SELECT * FROM employees WHERE birth_date LIKE '%-12-25'
+AND hire_date BETWEEN '1990-1-1' AND '1999-12-31'</string>
+		<string>SELECT * FROM employees WHERE last_name like 'E%'
+AND last_name like '%E'</string>
+		<string>SELECT * FROM employees WHERE first_name = 'Irena' AND gender = 'M'
+OR first_name = 'Vidya'
+AND gender = 'M'
+OR first_name = 'Maya'
+AND gender = 'M'</string>
+		<string>SELECT * FROM employees WHERE first_name = 'Irena'
+OR first_name = 'Vidya'
+OR first_name = 'Maya'
+AND gender = 'M'</string>
+		<string>SELECT * FROM employees WHERE first_name = 'Irena'
+OR first_name = 'Vidya'
+OR first_name = 'Maya'</string>
+		<string>SELECT * FROM employees WHERE last_name like 'E%'</string>
+		<string>SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya')</string>
+		<string>SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya')
+
+/* SELECT * FROM employees WHERE last_name like 'E%' */
+
+/* SELECT * FROM employees WHERE hire_date BETWEEN '1990-1-1' AND '1999-12-31' */
+
+/* SELECT * FROM employees WHERE birth_date LIKE '%-12-25' */
+
+/* SELECT * FROM employees WHERE last_name LIKE '%q%' */</string>
+		<string>/* SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya'); */
+
+/* SELECT * FROM employees WHERE last_name like 'E%' */
+
+/* SELECT * FROM employees WHERE hire_date BETWEEN '1990-1-1' AND '1999-12-31' */
+
+/* SELECT * FROM employees WHERE birth_date LIKE '%-12-25' */
+
+SELECT * FROM employees WHERE last_name LIKE '%q%'</string>
+		<string>/* SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya'); */
+
+/* SELECT * FROM employees WHERE last_name like 'E%' */
+
+/* SELECT * FROM employees WHERE hire_date BETWEEN '1990-1-1' AND '1999-12-31' */
+
+SELECT * FROM employees WHERE birth_date LIKE '%-12-25'</string>
+		<string>/* SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya'); */
+
+-- SELECT * FROM employees WHERE last_name like 'E%'
+
+SELECT * FROM employees WHERE hire_date BETWEEN '1990-1-1' AND '1999-12-31'</string>
+		<string>/* SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya'); */
+
+-- SELECT * FROM employees WHERE last_name like 'E%'
+
+SELECT * FROM employees WHERE hire_date BETWEEN '1990-1-1' AND '2000-1-1'</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.5.49-0ubuntu0.14.04.1-log</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
